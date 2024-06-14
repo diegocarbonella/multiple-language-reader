@@ -1,0 +1,13 @@
+.buttons{
+    font-size:26px;
+}
+
+.hideClass{
+    display: none;
+}
+
+.changeKeep {
+    height: 70px ;
+    width: 70px ;
+    font-size:16px;
+}

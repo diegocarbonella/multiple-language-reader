@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" style = "height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body style = "height: 100%;">
+
+    <div id = "menu" class ="bg-white" style="position: fixed;height: 100%;width: 100%;" >
+        
+        <div style="height: 70%;" class = "d-flex" >
+
+            <div class =" align-self-center w-100">
+                <div id = "story-selector"class = "text-center">
+                    <p class = "h1 w-100" >Select your story</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="height: 30%;" class ="d-flex justify-content-center" >
+
+            <div class = "align-self-center">
+
+                <div class = "text-center mt-3">
+                    <button id = "hideMenu" style = "width:50px;height: 50px;" class= "changeKeep btn btn-primary buttons rounded-circle">x</button>
+                </div>
+
+            </div>
+                    
+        </div>
+
+    </div>
+
+    <div style = "height: 100%;" class ="p-3" >
+
+        <div style="height: 70%;" class = "d-flex" >
+
+            <div class =" align-self-center w-100">
+                <div class = "text-center">
+                    <p class = "h1 w-100" id ="base">THIS IS A TEXT IN ENGLISH</p>
+                </div>
+        
+                <div class = "text-center mt-3">
+                    <p class = "h5 w-100" id = "translated">ESTO ES UN TEXTO EN INGLES</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="height: 30%;" class ="d-flex justify-content-center" >
+
+            <div class = "align-self-center">
+                <div class = "text-center">
+                    
+                    <button id = "changeKeep" class= "changeKeep btn btn-primary buttons rounded-circle">SHOW</button>
+                </div>
+                <div class = "mt-3">
+                    <button id = "buttonPrev" class= "btn btn-primary buttons">PREV</button>
+                    <button id = "textToSpeech" disabled=true class="btn btn-primary buttons d-none">TTS</button>
+                    <button id = "buttonNext" class= "btn btn-primary buttons">NEXT</button>
+                </div>
+
+                <div class = "text-center mt-3">
+                    <button id = "showMenu" style = "width:50px;height: 50px;" class= "changeKeep btn btn-primary buttons rounded-circle">...</button>
+                </div>
+
+            </div>
+                    
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+<script src="texts.js"></script>
+<script src="app.js"></script>
+
